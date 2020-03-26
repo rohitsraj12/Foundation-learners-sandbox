@@ -4,10 +4,10 @@
 <h4>Topics</h4>
 <ul>
   <li>html</li>
-  <li>css</li>
-  <li>javascript</li>
-  <li>jQuery</li>
-  <li>jQuery UI</li>
-  <li>bootstrap</li>
-  <li>foundation</li>
+  <li>css <i>coming soon</i></li>
+  <li>javascript <i>coming soon</i></li>
+  <li>jQuery <i>coming soon</i></li>
+  <li>jQuery UI <i>coming soon</i></li>
+  <li>bootstrap <i>coming soon</i></li>
+  <li>foundation <i>coming soon</i></li>
 </ul>
