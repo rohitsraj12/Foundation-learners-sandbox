@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table elements</title>
+    <style>
+      table {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid #232324;
+        border-spacing: 0;
+        padding: 0 5px;
+      }
+
+      td,
+      th {
+        border-bottom: 1px solid #e7e7e7;
+        margin: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid #222;
+      }
+
+      td + td,
+      th + th {
+        border-left: 1px solid #222;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">basic table</a></li>
+      <li><a href="table-1.html">table - 1</a></li>
+      <li><a href="table-2.html">table - 2</a></li>
+    </ul>
+    <br />
+    <hr />
+    <table>
+      <tr>
+        <th>name</th>
+        <th>phone</th>
+        <th>email</th>
+      </tr>
+      <tr>
+        <td>koko</td>
+        <td>+65 1234 1234</td>
+        <td>koko@contact.com</td>
+      </tr>
+      <tr>
+        <td>alisa</td>
+        <td>+65 5678 5678</td>
+        <td>alisa@contact.com</td>
+      </tr>
+    </table>
+  </body>
+</html>
