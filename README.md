@@ -16,7 +16,7 @@
 <hr />
 <h4> useful @import includes for prjects </h4>
 
-<table>
+<table width="100%">
       <thead>
         <tr>
           <th>name</th>
