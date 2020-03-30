@@ -16,7 +16,7 @@
 <hr />
 <h4> useful @import includes for prjects </h4>
 
-<table style="width: 100%;">
+<table>
       <thead>
         <tr>
           <th>name</th>
@@ -27,13 +27,13 @@
         <tr>
           <td>jQuery</td>
           <td>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
           </td>
         </tr>
         <tr>
           <td>fontAwesome</td>
           <td>
-            <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+            <script src="https://kit.fontawesome.com/b99e675b6e.js "></script>
           </td>
         </tr>
         <tr>
