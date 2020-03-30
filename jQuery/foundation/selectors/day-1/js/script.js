@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  // * will select all element from DOM
+  // this * will select all element from DOM
   $("*").css("textAlign", "center");
 
-  // This would select all the div
+  // This would select all the p
   $("p").css("background-color", "yellow");
 
   // this would select all class names of a
