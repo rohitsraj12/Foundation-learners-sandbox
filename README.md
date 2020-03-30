@@ -26,7 +26,9 @@
       <tbody>
         <tr>
           <td>jQuery</td>
-          <td></td>
+          <td>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          </td>
         </tr>
         <tr>
           <td>fontAwesome</td>
