@@ -12,3 +12,34 @@
   <li>bootstrap - <i>coming soon</i></li>
   <li>foundation - <i>coming soon</i></li>
 </ul>
+
+<h4> useful @import includes for prjects </h4>
+
+<table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>element and path</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>jQuery</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>fontAwesome</td>
+          <td>
+            <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
