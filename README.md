@@ -7,7 +7,7 @@
   <li>html</li>
   <li>css - <i>coming soon</i></li>
   <li>javascript - <i>coming soon</i></li>
-  <li><a href="https://jquery.com/" target="_blank" title="jquery documentation">jQuery</a> </li>
+  <li><a href="https://jquery.com/" target="blank" title="jquery documentation">jQuery</a> </li>
   <li>jQuery UI - <i>coming soon</i></li>
   <li>bootstrap - <i>coming soon</i></li>
   <li>foundation - <i>coming soon</i></li>
