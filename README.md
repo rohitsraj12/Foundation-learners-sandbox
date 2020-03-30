@@ -13,10 +13,7 @@
   <li>foundation - <i>coming soon</i></li>
 </ul>
 
-# <<<<<<< HEAD
-
-> > > > > > > 8151db46cb524773fa5c9d8df9199785bfce1b2c
-
+<hr />
 <h4> useful @import includes for prjects </h4>
 
 <table>
