@@ -7,7 +7,7 @@
   <li>html</li>
   <li>css - <i>coming soon</i></li>
   <li>javascript - <i>coming soon</i></li>
-  <li>jQuery </li>
+  <li><a href="https://jquery.com/">jQuery</a> </li>
   <li>jQuery UI - <i>coming soon</i></li>
   <li>bootstrap - <i>coming soon</i></li>
   <li>foundation - <i>coming soon</i></li>
@@ -25,7 +25,9 @@
       <tbody>
         <tr>
           <td>jQuery</td>
-          <td></td>
+          <td>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          </td>
         </tr>
         <tr>
           <td>fontAwesome</td>
