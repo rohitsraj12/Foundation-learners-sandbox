@@ -50,7 +50,7 @@
 <h2>Web Resources</h2>
 <ul>
   <li>
-    <a href="https://fonts.google.com/">google font</a>
+    <a href="https://fonts.google.com/">google-fonts</a>
   </li>
 </ul>
 <hr />
