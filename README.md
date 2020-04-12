@@ -50,7 +50,10 @@
 <h2>Web Resources</h2>
 <ul>
   <li>
-    <a href="https://fonts.google.com/">google-fonts</a>
+    <a href="https://fonts.google.com/">google - Fonts</a>
+  </li>
+  <li>
+    <a href="https://linea.io/">Linea Icon - Fonts</a>
   </li>
 </ul>
 <hr />
