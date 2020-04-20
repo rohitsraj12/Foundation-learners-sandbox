@@ -3,5 +3,40 @@
 *::before{
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.wrap__container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.body__header {
+}
+
+.header__titile {
+	padding: 30px 0;
+}
+
+
+.header__titile a{
+	font-size: 30px;
+}
+
+.header__navigation {
+	height: 40px;
+	background-color: #333;
+}
+
+.header__navigation > ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+}
+
+.nav__link {
+	color: #e8e8e8;
+	line-height: 40px;
 }
 
