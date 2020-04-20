@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome message - Task 1</title>
+</head>
+<body>
+	
+	<div id="output-message"></div>
+
+	<br>
+	<br>
+
+	Name: <input type="text" placeholder="enter your name">
+	<br><br>
+
+	<button id="button">submit</button>
+
+	<script>
+		const button = document.getElementById("button");
+		const input = document.getElementsByTagName("input");
+		const message = document.getElementById("output-message");
+
+		button.addEventListener("click", showMessage);
+		function showMessage(){
+			message.innerText = "welcome to " + input[0].value;
+		}	
+	</script>
+</body>
+</html>
