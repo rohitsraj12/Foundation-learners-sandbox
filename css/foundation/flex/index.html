@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>flex-box</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/base-style.css" />
+    <link rel="stylesheet" href="css/flex.css" />
+  </head>
+  <body>
+    <div class="body__wrap">
+      <div class="body__header">
+        <header>
+          <div class="header-brand">
+            <a class="header-brand__link" href="#">CSS - Flex box</a>
+          </div>
+
+          <nav class="header__navigation">
+            <ul>
+              <li class="nav__list">
+                <a class="nav__link" href="../index.html">css home</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="index.html">flex</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">grid</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <div class="body__container">
+        <section class="basic-flex">
+          <header class="header-section">
+            <h2 class="heading-primary">
+              basic flex properties
+            </h2>
+            <sub class="sub-heading-primary">
+              display, flex-direction, justify-content, align-items, flex-wrap
+            </sub>
+          </header>
+
+          <div class="body-section">
+            <article>
+              <header class="sub-heading-primary">
+                <strong> default values when flex applied:</strong>
+                flex-direction, justify-content, align-items
+              </header>
+              <div class="parent default-values">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <article>
+              <header class="sub-heading-primary">
+                <strong>:</strong>
+                flex-direction, justify-content, align-items
+              </header>
+              <div class="parent flex-column">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <article>
+              <header class="sub-heading-primary">
+                <strong>justify-content:</strong>
+                space-beteen, space-around, space-evenly, center, flex-start,
+                flex-end
+              </header>
+              <div class="parent justify-content">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <div class="parent">
+              <div class="child">1</div>
+              <div class="child">2</div>
+              <div class="child">3</div>
+              <div class="child">4</div>
+              <div class="child">5</div>
+              <div class="child">6</div>
+              <div class="child">7</div>
+              <div class="child">8</div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="body__footer"></div>
+    </div>
+  </body>
+</html>
