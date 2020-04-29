@@ -1,0 +1,29 @@
+.parent {
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: #e8e8e8;
+  display: flex;
+}
+.child {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #e56e56;
+  text-align: center;
+}
+
+.default-values {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+/* second section */
+.flex-column {
+  flex-direction: column;
+}
+
+/* third section */
+.justify-content {
+  justify-content: space-evenly;
+  align-items: center;
+}
