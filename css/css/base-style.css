@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+}
+
+html {
+  /* below ie 9 rem wont work */
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.body__wrap {
+  position: relative;
+}
+
+.body__header {
+  background-color: rgb(36, 110, 139);
+  margin-bottom: 6rem;
+}
+
+.body__header header {
+  height: 10rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-brand__link {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.header-brand,
+.header__navigation {
+  padding-bottom: 2rem;
+}
+
+.header__navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav__list + li {
+  margin-left: 3rem;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+}
+
+/* ***********************************
+  *
+  *   base content styling
+  *
+  ***************************************/
+.header-section {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sub-heading-primary {
+  font-size: 2rem;
+  color: #444;
+}
