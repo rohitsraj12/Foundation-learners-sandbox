@@ -1,6 +1,6 @@
 @media (max-width: 581px) {
   .wrap__content {
-    width: 60%;
+    width: 96%;
   }
   .hamberger {
     position: absolute;
@@ -54,5 +54,28 @@
   /* body banner */
   .banner__body {
     /* display: none; */
+  }
+
+  /* body container */
+  .about__body {
+    flex-direction: column;
+  }
+
+  .about__block {
+    margin-bottom: 60px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about__block .header__secondary {
+    text-align: center;
+  }
+
+  .left__icon {
+    margin-bottom: 20px;
+  }
+
+  .right__content p {
+    text-align: center;
   }
 }
