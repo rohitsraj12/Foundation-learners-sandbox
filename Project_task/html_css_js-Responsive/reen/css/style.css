@@ -39,15 +39,22 @@ html {
 
 .header__primary {
   font-family: "Signika", sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   color: #506985;
   text-align: center;
   margin-bottom: 40px;
 }
 
+.header__secondary {
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+  color: #506985;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
 .header__content {
-  width: 70%;
-  margin: 0 auto;
   text-align: center;
   line-height: 28px;
   font-size: 19px;
@@ -128,8 +135,32 @@ html {
   margin-bottom: 100px;
 }
 
-.about__header {
-  padding-bottom: 20px;
+.section__about {
+  margin-bottom: 100px;
 }
 
+.about__header {
+  padding-bottom: 60px;
+}
+
+.about__body,
+.about__block {
+  display: flex;
+}
+
+.left__icon {
+  padding: 0 30px;
+}
+
+.left__icon i {
+  font-size: 50px;
+  color: rgb(60, 207, 171);
+}
+
+.right__content p {
+  color: #506985;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
 /* */
