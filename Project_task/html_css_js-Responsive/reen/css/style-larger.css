@@ -1,4 +1,9 @@
 @media (min-width: 582px) {
+  .header__content {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .wrap__content {
     width: 80%;
   }
@@ -65,5 +70,11 @@
 
   .header__nav-link {
     color: #506985;
+  }
+
+  /* body container */
+  .about__body,
+  .about__block {
+    flex-direction: row;
   }
 }
