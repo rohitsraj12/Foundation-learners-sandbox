@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>flex-box</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/base-style.css" />
+    <link rel="stylesheet" href="css/flex.css" />
+  </head>
+  <body>
+    <div class="body__wrap">
+      <div class="body__header">
+        <header>
+          <div class="header-brand">
+            <a class="header-brand__link" href="../index.html">CSS</a>
+          </div>
+
+          <nav class="header__navigation">
+            <ul>
+              <li class="nav__list">
+                <a class="nav__link" href="index.html">home</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="flex-direction.html"
+                  >flex-direction</a
+                >
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">justify-content</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">align-items</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <div class="body__container">
+        <section class="flex-direction">
+          <header class="header-section">
+            <h2 class="heading-primary">
+              flex direction
+            </h2>
+            <sub class="sub-heading-primary">
+              row, column, row-reverse, column-reverse
+            </sub>
+          </header>
+
+          <div class="body-section">
+            <article>
+              <header class="sub-heading-primary">
+                <strong>row</strong>
+              </header>
+              <div class="parent-row">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <article>
+              <header class="sub-heading-primary">
+                <strong>row-reverse</strong>
+              </header>
+              <div class="parent-row-reverse">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <article>
+              <header class="sub-heading-primary">
+                <strong>column</strong>
+              </header>
+              <div class="parent-column">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+
+            <article>
+              <header class="sub-heading-primary">
+                <strong>column-reverse</strong>
+              </header>
+              <div class="parent-column-reverse">
+                <div class="child child-one">1</div>
+                <div class="child child-two">2</div>
+                <div class="child child-three">3</div>
+                <div class="child child-four">4</div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <div class="body__footer"></div>
+    </div>
+  </body>
+</html>
