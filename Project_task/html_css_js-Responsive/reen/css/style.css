@@ -139,7 +139,8 @@ html {
   margin-bottom: 100px;
 }
 
-.about__header, .work__header {
+.about__header,
+.work__header {
   padding-bottom: 60px;
 }
 
@@ -167,8 +168,10 @@ html {
 /* work section */
 
 .section__work {
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
   padding: 100px 0;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .work__list {
@@ -180,7 +183,7 @@ html {
 .card {
   width: 48%;
   background-color: #fff;
-  border: 2px solid #ededed;
+  border: 1px solid #f1f1f1;
   border-radius: 5px;
   text-align: center;
 }
