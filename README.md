@@ -53,12 +53,19 @@
 </table>
 <hr />
 <h2>Web Resources</h2>
+<h4>Fonts</h4>
 <ul>
   <li>
     <a href="https://fonts.google.com/">google - Fonts</a>
   </li>
   <li>
     <a href="https://linea.io/">Linea Icon - Fonts</a>
+  </li>
+</ul>
+<h4>Images</h4>
+<ul>
+  <li>
+    <a href="https://fonts.google.com/">undraw - svg, png, vector, art</a>
   </li>
 </ul>
 <hr />
