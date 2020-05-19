@@ -139,7 +139,7 @@ html {
   margin-bottom: 100px;
 }
 
-.about__header {
+.about__header, .work__header {
   padding-bottom: 60px;
 }
 
@@ -163,4 +163,39 @@ html {
   font-weight: 500;
   line-height: 24px;
 }
-/* */
+
+/* work section */
+
+.section__work {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+.work__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+  background-color: #fff;
+  border: 2px solid #ededed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card > .header-secondary {
+  padding: 30px 0 10px;
+  color: #506985;
+}
+
+.card p {
+  padding-bottom: 30px;
+  color: #506985;
+  font-weight: 500;
+}
+
+.work__list img {
+  width: 100%;
+}
