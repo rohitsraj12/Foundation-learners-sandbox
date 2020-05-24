@@ -56,9 +56,6 @@
 <h4>Fonts</h4>
 <ul>
   <li>
-    <a href="https://fonts.google.com/">google - Fonts</a>
-  </li>
-  <li>
     <a href="https://linea.io/">Linea Icon - Fonts</a>
   </li>
 </ul>
@@ -69,3 +66,67 @@
   </li>
 </ul>
 <hr />
+
+<h2>
+  Icon Fonts
+</h2>
+<blockquote>
+  <p>
+    Resources for Icon Fonts
+  </p>
+</blockquote>
+<table>
+  <thead>
+    <tr>
+      <td>
+        Website
+      </td>
+      <td>
+        Description
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://fontawesome.com/">Fontawesom</a>
+      </td>
+      <td>The web's most popular icon set and toolkit</td>
+    </tr>
+    <tr>
+      <td><a href="https://icons8.com/line-awesome">Line Awesome</a></td>
+      <td>Swap in replacement of Font Awesome with modern line icons
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h2>
+  Vectors & Clip Art
+</h2>
+<blockquote>
+  <p>
+    Free vectors, clipart, illustrations, patterns and more
+  </p>
+</blockquote>
+<table>
+  <thead>
+    <tr>
+      <td>
+        Website
+      </td>
+      <td>
+        Description
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://www.vecteezy.com/">Vecteezy</a>
+      </td>
+      <td>Find and download free vector art</td>
+    </tr>
+  </tbody>
+</table>
