@@ -75,7 +75,7 @@
     Resources for Icon Fonts
   </p>
 </blockquote>
-<table>
+<table width="100%">
   <thead>
     <tr>
       <td>
@@ -110,7 +110,7 @@
     Free vectors, clipart, illustrations, patterns and more
   </p>
 </blockquote>
-<table>
+<table width="100%">
   <thead>
     <tr>
       <td>
