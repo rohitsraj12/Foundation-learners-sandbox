@@ -15,7 +15,10 @@
 <hr />
 <h4>Sample projects</h4>
 <ul>
-  <li><a href="http://rohitsraj12.github.io/Foundation-learners-sandbox/Project_task/html_css_js-Responsive/reen/index.html" target="_blank">reen</a> - Responsive website: html, css, js</li>
+  <li>
+    <a href="http://rohitsraj12.github.io/Foundation-learners-sandbox/Project_task/html_css_js-Responsive/reen/index.html" target="_blank">reen</a> - Responsive website: html, css, js</li>
+  <li>
+    <a href="http://rohitsraj12.github.io/Foundation-learners-sandbox/Project_task/html_css_js-Responsive/brunch/index.html" target="_blank">brunch</a> - Responsive website: html, css, js</li>
 </ul>
 <hr />
 
