@@ -1,0 +1,265 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/***************************************
+* 
+*   #base styling section 
+*
+***************************************/
+ul,
+ol {
+  list-style: none;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font: 300;
+  letter-spacing: 0.5px;
+  word-spacing: normal;
+  color: #2a3b40;
+}
+
+.body__wrap {
+  background-color: #2a3b40;
+  position: relative;
+}
+
+.wrap__btn .btn__link {
+  padding: 16px 26px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #26363a;
+  text-transform: uppercase;
+}
+
+.wrap__btn .btn__link:hover {
+  background-color: #ff992b;
+  color: rgb(255, 255, 255);
+}
+
+/***************************************
+* 
+*   #body header section 
+*
+***************************************/
+
+.body__header {
+  width: 100%;
+  padding-top: 30px;
+  position: absolute;
+  top: 30px;
+  z-index: 100;
+}
+
+.body__header header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.body__header a {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #d0d4d5;
+  text-transform: uppercase;
+}
+
+/*  #navigation section 
+*****************************************/
+.nav__section ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list {
+  margin-left: 30px;
+}
+
+.nav__link {
+  letter-spacing: 0.6px;
+}
+
+.nav__link:hover {
+  opacity: 0.7;
+}
+
+/***************************************
+* 
+*   #body footer section 
+*
+***************************************/
+
+/***************************************
+* 
+*   #body banner section 
+*
+***************************************/
+.body__banner {
+  position: relative;
+}
+
+.banner__img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner__content {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
+
+.banner__content--wrap {
+  width: 40%;
+  margin: 0 auto;
+  padding: 40px 0 50px;
+  background-color: rgba(255, 255, 255, 0.82);
+  text-align: center;
+}
+
+.banner__content--header {
+  margin-bottom: 10px;
+  padding-top: 40px;
+}
+
+.banner__content--detail {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.banner__content--footer {
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+}
+
+.banner__content--header header {
+  font-family: "Cookie", cursive;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  color: #2c3a42;
+  text-transform: capitalize;
+}
+
+.banner__content--detail p {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ad6c12;
+}
+/***************************************
+* 
+*   #body container section 
+*
+***************************************/
+
+.top__section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.top__section .wrap__section {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__section .left__section {
+  width: 55%;
+}
+
+.top__section .right__section {
+  width: 40%;
+}
+
+.top__section img {
+  width: 100%;
+}
+
+.top__section--header {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.top__section--header h2 {
+  color: #ffffff;
+}
+
+.top__section--detail {
+}
+
+.top__section--detail p {
+  color: #ffffff;
+  text-justify: auto;
+}
+
+/* #home second section
+***********************************************/
+.second__section {
+  background-color: #d4d8d9;
+  padding: 50px 0;
+}
+
+.second__section .wrap__section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second__section .wrap__section > div {
+  width: 30%;
+}
+
+.second__section ul {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.second__section ul li {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: #2a3b40;
+  border-radius: 50%;
+  float: left;
+}
+
+.second__section ul {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.second__section--header {
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2a3b40;
+}
