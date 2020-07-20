@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Dynamic welcome message- Task 2</title>
-  <style>
-      
-    .output-message {
-      width: 100%;
-      height: 100px;
-    }
-
-  </style>
-</head>
-<body>
-  
-  <div id="output-message"></div>
-
-  <br>
-  <br>
-
-  Name: <input type="text" placeholder="enter your name">
-  <br><br>
-
-  <button id="button">submit</button>
-
-  <script>
-    const button = document.getElementById("button");
-    const input = document.getElementsByTagName("input");
-    const messageBox = document.getElementById("output-message"); 
-
-    button.addEventListener("click", showMessage);
-    
-    function showMessage(){
-      const date = new Date();
-      let curTime = date.getHours();
-      let message;
-      let color;
-
-      curTime = 14;
-
-      //apply css class using setAttribute()
-      messageBox.setAttribute("class", "output-message")
-
-      if ( curTime < 12 ){
-        message = "Good Morning ";
-        color = "#ff6600"; 
-        messageBox.innerText = message + input[0].value;
-        messageBox.style.backgroundColor= color;
-      } else if (curTime < 17){
-        message = "Good Afternoon ";
-        color = "#e9e9e9";
-        messageBox.innerText = message + input[0].value;
-        messageBox.style.backgroundColor= color;
-      } else if (curTime < 24){
-        message = "Good Evening ";
-        color = "#ffecad";
-        messageBox.innerText = message + input[0].value;
-        messageBox.style.backgroundColor= color;
-      }else {
-        message = "some this is wrong";
-        messageBox.innerText = message;
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dynamic welcome message- Task 2</title>
+    <style>
+      .output-message {
+        width: 100%;
+        height: 100px;
       }
-    }
-    
-  </script>
-</body>
+    </style>
+  </head>
+  <body>
+    <div id="output-message"></div>
+
+    <br />
+    <br />
+
+    Name: <input type="text" placeholder="enter your name" /> <br /><br />
+
+    <button id="button">submit</button>
+
+    <script>
+      const button = document.getElementById("button");
+      const input = document.getElementsByTagName("input");
+      const messageBox = document.getElementById("output-message");
+
+      button.addEventListener("click", showMessage);
+
+      function showMessage() {
+        const date = new Date();
+        let curTime = date.getHours();
+        let message;
+        let color;
+        curTime = new Date();
+
+        //apply css class using setAttribute()
+        messageBox.setAttribute("class", "output-message");
+
+        if (curTime.getHours() < 12) {
+          message = "Good Morning ";
+          color = "#ff6600";
+          messageBox.innerText = message + input[0].value;
+          messageBox.style.backgroundColor = color;
+        } else if (curTime.getHours() < 17) {
+          message = "Good Afternoon ";
+          color = "#e9e9e9";
+          messageBox.innerText = message + input[0].value;
+          messageBox.style.backgroundColor = color;
+        } else if (curTime.getHours() < 24) {
+          message = "Good Evening ";
+          color = "#ffecad";
+          messageBox.innerText = message + input[0].value;
+          messageBox.style.backgroundColor = color;
+        } else {
+          message = "some this is wrong";
+          messageBox.innerText = message;
+        }
+      }
+    </script>
+  </body>
 </html>
