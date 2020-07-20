@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      input {
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      input[type="radio"],  
+      input[type="checkbox"], 
+      input[type="submit"], 
+      input[type="reset"], 
+      input[type="button"]{
+        display: inline;
+      }
+
+      textarea {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      select {
+        display: block;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p></p>
+
+    <form action="" method="post">
+
+      <label for="name">Name (4 to 8 characters):</label>
+
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        placeholder="enter your name"
+      />
+      <hr />
+
+      <label for="username">First name:</label>
+      <input type="text" placeholder="enter user name" name="username" id="username"  />
+
+      <label for="password">password</label>
+      <input type="password" placeholder="password" name="enter password" id="password"  />
+
+      <label for="email">email</label>
+      <input type="email" placeholder="enter email"  name="enter password" id="email" />
+
+      <label for="color">choose color</label>
+      <input type="color" id="color" />
+
+      <label for="date">choose date</label>
+      <input type="date" id="data"/>
+
+      <label for="datetime">choose date time</label>
+      <input type="datetime" id="datetime"/>
+
+      <input type="file" />
+
+      <label for="number">number</label>
+      <input type="number" id="number"/>
+
+      <label for="range">range</label>
+      <input type="range" id="range"/>
+
+      <label for="search">search</label>
+      <input type="search"  placeholder=""/>
+
+      <label for="phone">phone number</label>
+      <input type="tel"  placeholder=""/>
+
+      <label for="time">time</label>
+      <input type="time" />
+
+      <label for="url">url</label>
+      <input type="url" />
+
+      <label for="one">radio button 1</label>
+      <input type="radio" id="one" value="radio 1" name="match"/></br>
+      <label for="two">radio button 2</label>
+      <input type="radio" id="two" value="radio 2" name="match"/></br>
+      <label for="three">radio button 3</label>
+      <input type="radio"  id="three" value="radio 3" name="match"/></br>
+      <label for="four">radio button 4</label>
+      <input type="radio" id="four" value="radio 4" name="match"/></br></br>
+
+      <label for="check-one">checkbox button 1</label>
+      <input type="checkbox" id="check-one" value="checkbox 1" name="match"/></br>
+      <label for="check-two">checkbox button 2</label>
+      <input type="checkbox" id="check-two" value="checkbox 2" name="match"/></br>
+      <label for="check-three">checkbox button 3</label>
+      <input type="checkbox"  id="check-three" value="checkbox 3" name="match"/></br>
+      <label for="check-four">checkbox button 4</label>
+      <input type="checkbox" id="check-four" value="checkbox 4" name="match"/></br></br>
+
+      <select name="" id="">
+        <option value="">select number</option>
+        <option value="">1</option>
+        <option value="">2</option>
+      </select>
+    </br>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" />
+      <input type="button" value="button" />
+      <input type="reset" />
+
+    </form>
+  </body>
+</html>
