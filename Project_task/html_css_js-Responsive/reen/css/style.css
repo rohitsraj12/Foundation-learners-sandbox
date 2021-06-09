@@ -25,7 +25,6 @@ html {
 }
 
 .button {
-  padding: 15px 40px;
   font-weight: 700;
   font-family: "Signika", sans-serif;
   display: inline-block;
@@ -33,8 +32,15 @@ html {
 }
 
 .button__primary {
+  padding: 15px 40px;
   background-color: #fff;
   color: #506985;
+}
+
+.button__secondary{
+  padding: 10px 20px;
+  background-color: #506985;
+  color: #fff;
 }
 
 .header__primary {
@@ -169,19 +175,17 @@ html {
 
 .section__work {
   background-color: #f9f9f9;
+  margin-bottom: 100px;
   padding: 100px 0;
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
 }
 
 .work__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .card {
-  width: 48%;
   background-color: #fff;
   border: 1px solid #f1f1f1;
   border-radius: 5px;
@@ -201,4 +205,24 @@ html {
 
 .work__list img {
   width: 100%;
+}
+
+/* work slider - redesign with plug in */
+.slider ul li{
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+}
+
+/*section work with us*/
+.section__work-with-us {
+  padding-bottom: 100px;
+}
+
+.work-with-us__body {
+  padding-bottom: 40px;
+}
+
+.work-with-us__footer {
+  text-align: center;
 }
