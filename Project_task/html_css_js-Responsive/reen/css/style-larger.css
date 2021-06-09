@@ -77,4 +77,14 @@
   .about__block {
     flex-direction: row;
   }
-}
+
+  /* work section */
+  .work__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 48%;
+  }}
