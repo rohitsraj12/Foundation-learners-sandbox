@@ -78,4 +78,14 @@
   .right__content p {
     text-align: center;
   }
+
+  /*  work section */
+  .card {
+    width: 94%;
+    margin:  0 auto;
+  }
+
+  .card:first-child {
+    margin-bottom: 40px;
+  }
 }
