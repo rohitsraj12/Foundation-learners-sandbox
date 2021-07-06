@@ -45,12 +45,12 @@
       </td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>summernote plugin</td>
+      <td><a href="https://summernote.org/">editable textarea - plugIn</a></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>Radio button styling</td>
+      <td><a href="http://icheck.fronteed.com/#skins">styled radio and check box - plugIn</a></td>
     </tr>
   </tbody>
 </table>
