@@ -52,6 +52,10 @@
       <td>Radio button styling</td>
       <td><a href="http://icheck.fronteed.com/#skins">styled radio and check box - plugIn</a></td>
     </tr>
+    <tr>
+      <td>Table with filter</td>
+      <td><a href="https://datatables.net/examples/index">HTML tables with filter</a></td>
+    </tr>
   </tbody>
 </table>
 <hr />
@@ -101,11 +105,7 @@
       <td>Swap in replacement of Font Awesome with modern line icons
       </td>
     </tr>
-    <tr>
-      <td><a href="https://datatables.net/examples/index">Line Awesome</a></td>
-      <td>Table with filter
-      </td>
-    </tr>
+    
   </tbody>
 </table>
 
