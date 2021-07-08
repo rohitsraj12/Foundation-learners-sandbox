@@ -101,6 +101,11 @@
       <td>Swap in replacement of Font Awesome with modern line icons
       </td>
     </tr>
+    <tr>
+      <td><a href="https://datatables.net/examples/index">Line Awesome</a></td>
+      <td>Table with filter
+      </td>
+    </tr>
   </tbody>
 </table>
 
